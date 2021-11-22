@@ -32,15 +32,23 @@ HOW:
 | 5_REPORT| Generated report
 
 ## SWOT ANALYSIS
+
 STRENGTH:
+
 • It aims to simplify the task of Showing a accurate result• Simple & Easy to Use
+
 WEAKNESS:
+
 •It is not completely encrypted
+
 OPPURTUNITIES:
+
 In future,more Data such as temprature can be added apart from the ones which are used here in this project.
+
 THREATS:
+
 Company now send and retrieve data from databases to help better manage inventory and the like, but some companies don’t have the right data encryption practices in place. This can often lead to lost data and sometimes, the data easily obtainable by criminals.
-Want to contribute? Great!
+
 
 # LEARNING RESOURCES
 

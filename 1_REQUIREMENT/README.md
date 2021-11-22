@@ -4,13 +4,21 @@ This project aims to explain the task of keeping current date and time of the sy
 OBJECTIVES:
 The aim of the project is to design a twelve hour Digital Clock that displays the time digitally, in contrast to an analog clock, where the time is indicated by the positions of rotating hands. With the help of counters and decoders, a digital clock to display time in hours, minutes and seconds can be constructed
 # 4W's and 1'H
+
 WHO:
+
 •All the organisation who has lot’s of System requirement in their different units and their different services
+
 WHEN:
+
 • As the business of the organisation increases number of System users • With the increases of user end
+
 WHERE:
+
 •This problem is surfaced in all the organisation in the world.
+
 HOW:
+
 •This project takes in all the input values and yields out the management parameters.
 
 # FOLDER AND STRUCTURE

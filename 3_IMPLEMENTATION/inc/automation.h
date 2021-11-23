@@ -29,4 +29,4 @@ void fix_digit(char, int, int);
 int block_position(int );
 void print_digit(int (*array)[6], int, int);
 void print_colon(int, int);
-#end if
+#endif

@@ -8,13 +8,28 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#define cols_number 30
-#define rows_number 8
-#define number_of_elements 11
+#include <time.h>
+#include <stdio.h>
+int main(int argc, char **argv){
+	int position;
+	int i;
+	int colour_1;
 
-typedef struct{
-	char element[rows_number][cols_number];
-	char element_char;
-}elements_struct;
+	if(argc==1){
+		// Default colour: white
+		colour_1 = 7;	
+	}
+	else if(argc==3){
+		char *colour=(argv[2]);
+		colour_1 = input_colour(colour);	// Required colour
+			if(colour_1==100){
+				printf("You have entered an invalid colour\n");
+				return 0;
+			}
+	}
+
+	else{
+		printf("Too many arguments\n");
+			return 0;
+	}
 	
-elements_struct elements[number_of_elements];

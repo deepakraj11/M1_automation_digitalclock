@@ -22,11 +22,4 @@
 #define	WHITE		7
 #define DONT_CARE	8
 
-void textcolor(int,int,int);
-int input_colour(char *);
-int identify_digit(char);
-void fix_digit(char, int, int);
-int block_position(int );
-void print_digit(int (*array)[6], int, int);
-void print_colon(int, int);
 #endif
